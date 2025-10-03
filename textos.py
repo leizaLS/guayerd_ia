@@ -1,4 +1,4 @@
-documentacion = {
+document = {
     "1": """1. Tema, problema y solución.
 *Este proyecto simula la gestión de una Tienda a partir de datos sintéticos.
 *El objetivo es disponer de un escenario consistente para practicar análisis, visualización y modelado. 
