@@ -1,0 +1,22 @@
+### Modelos implementados
+**A — Clasificación**  
+- Objetivo: detectar productos en el top 20% por cantidad total vendida.  
+- Algoritmo: RandomForestClassifier.  
+- Métricas: Accuracy, Matriz de confusión (heatmap).  
+- Resultados guardados: `graficos/A_matriz_confusion_top20.png`, `graficos/A_importancias_features.png`.
+
+**B — Regresión**  
+- Objetivo: predecir `cantidad_total` por producto.  
+- Algoritmos comparados: RandomForestRegressor (principal) y LinearRegression (baseline).  
+- Métrica: MSE (mean squared error).  
+- Resultados: `graficos/B_real_vs_predicho_rf.png`, `graficos/B_resumen.csv`.
+
+**C — Clasificación por venta**  
+- Objetivo: clasificar si una línea de venta es “grande” (> mean(importe)*1.2).  
+- Algoritmos comparados: LogisticRegression y RandomForestClassifier.  
+- Métricas: Accuracy, Matriz de confusión.  
+- Resultados: `graficos/C_matriz_confusion.png`, `graficos/C_resumen.csv`.
+
+### Cómo ejecutar
+1. Colocar los archivos Excel en `db/`.
+2. Ejecutar desde `sprint2/`:
