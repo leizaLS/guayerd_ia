@@ -16,7 +16,3 @@
 - Algoritmos comparados: LogisticRegression y RandomForestClassifier.  
 - Métricas: Accuracy, Matriz de confusión.  
 - Resultados: `graficos/C_matriz_confusion.png`, `graficos/C_resumen.csv`.
-
-### Cómo ejecutar
-1. Colocar los archivos Excel en `db/`.
-2. Ejecutar desde `sprint2/`:
