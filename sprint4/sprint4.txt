@@ -1,0 +1,59 @@
+📊 Descripción del trabajo – Sprint 4
+
+En este sprint se desarrolló un dashboard de ventas en Power BI, aplicando un modelo de datos correcto y buenas prácticas de visualización, con el objetivo de analizar el comportamiento de las ventas en el tiempo y por distintas dimensiones del negocio.
+
+==========================================================================================================================
+
+🔧 Modelado de datos
+
+*Se construyó un modelo relacional en estrella, donde:
+*La tabla ventas actúa como tabla de hechos.
+*Las tablas clientes, productos y calendario funcionan como tablas de dimensiones.
+*Se creó una tabla Calendario para habilitar el análisis temporal, incluyendo campos de Año, Mes, Trimestre y orden correcto de los meses mediante un campo numérico.
+
+Este modelo permite realizar análisis consistentes y escalables.
+
+==========================================================================================================================
+
+🧮 Medidas creadas
+
+*Se definieron medidas DAX para responder a los principales indicadores del negocio:
+*Total Ventas: para analizar el monto total vendido.
+*Cantidad de ventas / productos: para medir volumen.
+*Ticket Promedio: para evaluar el valor promedio por venta.
+
+Estas medidas permiten un análisis dinámico y reutilizable en todos los gráficos.
+
+==========================================================================================================================
+
+📈 Visualizaciones
+
+Se diseñaron visualizaciones claras y orientadas al análisis:
+*Total de ventas por mes, para identificar tendencias temporales.
+*Total de ventas por categoría, para comparar el desempeño de los productos.
+*Total de ventas por medio de pago, para analizar las preferencias de los clientes.
+
+Se eligieron gráficos de barras por su facilidad de comparación entre categorías.
+
+==========================================================================================================================
+
+🎛 Segmentadores (Slicers)
+
+Se incorporaron segmentadores interactivos para facilitar el análisis:
+
+*Año
+*Mes
+*Categoría
+*Medio de pago
+
+-Estos slicers permiten filtrar toda la información del dashboard de manera dinámica, mejorando la exploración de los datos.
+
+==========================================================================================================================
+
+🎯 Objetivo alcanzado
+
+El dashboard permite:
+*Analizar las ventas desde múltiples perspectivas.
+*Detectar patrones temporales.
+*Comparar categorías y medios de pago.
+*Facilitar la toma de decisiones mediante información clara e interactiva.
